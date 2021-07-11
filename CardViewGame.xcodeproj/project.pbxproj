@@ -62,9 +62,9 @@
 			children = (
 				86BBB2EC2699DC6400852285 /* MemoryGame.swift */,
 				8625DE7C269A8FCA00037449 /* CardMemoryGame.swift */,
+				8669A7E326994AFA00D0F41F /* ContentView.swift */,
 				8669A7DF26994AFA00D0F41F /* AppDelegate.swift */,
 				8669A7E126994AFA00D0F41F /* SceneDelegate.swift */,
-				8669A7E326994AFA00D0F41F /* ContentView.swift */,
 				8669A7E526994AFB00D0F41F /* Assets.xcassets */,
 				8669A7EA26994AFB00D0F41F /* LaunchScreen.storyboard */,
 				8669A7ED26994AFB00D0F41F /* Info.plist */,

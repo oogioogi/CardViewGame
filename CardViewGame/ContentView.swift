@@ -3,31 +3,34 @@
 //  CardViewGame
 //
 //  Created by 이용석 on 2021/07/10.
-//
+// [ View ]
 
 import SwiftUI
 
 struct ContentView: View {
     
-    var viewModel: EmojiMemoryGame
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         VStack {
             ScrollView {
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 70))]) {
                     ForEach(viewModel.cards, id: \.self.id) { card in
                         CardView(card: card)
                             .aspectRatio(2/3, contentMode:.fit)
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
                     }
                 }
             }.foregroundColor(.red)
-
+            
         }
         .padding(.horizontal)
         
         
     }
-
+    
 }
 
 struct CardView: View {
@@ -41,6 +44,8 @@ struct CardView: View {
                 shape.fill().foregroundColor(.white)
                 shape.strokeBorder(lineWidth: 3.0)
                 Text("\(card.content)").font(.largeTitle)
+            }else if card.isMatched {
+                shape.opacity(0.5)
             }else {
                 shape.fill()
             }
