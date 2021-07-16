@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8625DE7D269A8FCA00037449 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625DE7C269A8FCA00037449 /* EmojiMemoryGame.swift */; };
+		8625FB9B26A1AC0700697F6D /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8625FB9A26A1AC0700697F6D /* AspectVGrid.swift */; };
 		8669A7E026994AFA00D0F41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8669A7DF26994AFA00D0F41F /* AppDelegate.swift */; };
 		8669A7E226994AFA00D0F41F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8669A7E126994AFA00D0F41F /* SceneDelegate.swift */; };
 		8669A7E426994AFA00D0F41F /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8669A7E326994AFA00D0F41F /* EmojiMemoryGameView.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8625DE7C269A8FCA00037449 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		8625FB9A26A1AC0700697F6D /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		8669A7DC26994AFA00D0F41F /* CardViewGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardViewGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8669A7DF26994AFA00D0F41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8669A7E126994AFA00D0F41F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				86BBB2EC2699DC6400852285 /* MemoryGame.swift */,
 				8625DE7C269A8FCA00037449 /* EmojiMemoryGame.swift */,
 				8669A7E326994AFA00D0F41F /* EmojiMemoryGameView.swift */,
+				8625FB9A26A1AC0700697F6D /* AspectVGrid.swift */,
 				8669A7DF26994AFA00D0F41F /* AppDelegate.swift */,
 				8669A7E126994AFA00D0F41F /* SceneDelegate.swift */,
 				8669A7E526994AFB00D0F41F /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			files = (
 				86BBB2ED2699DC6400852285 /* MemoryGame.swift in Sources */,
 				8669A7E026994AFA00D0F41F /* AppDelegate.swift in Sources */,
+				8625FB9B26A1AC0700697F6D /* AspectVGrid.swift in Sources */,
 				8669A7E226994AFA00D0F41F /* SceneDelegate.swift in Sources */,
 				8669A7E426994AFA00D0F41F /* EmojiMemoryGameView.swift in Sources */,
 				8625DE7D269A8FCA00037449 /* EmojiMemoryGame.swift in Sources */,
